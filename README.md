@@ -5,7 +5,6 @@ The intent of our project was to, as accurately as we could, recreat
 
 
 High Level Description:
-
 Our game had many functions that to the ordinary eye look simple, but indeed were  more than meets the eye. Here are a few high level descriptions of the main complex  parts of Super Mario Bros.
 
 The jump function was governed by a tic and toc timer. While the jump key was  pressed, Mario’s upward velocity was set at a constant number. We intended for the  timer to restrict this to a small amount of time to provide a maximum jump height when  the jump key was held down, but allow for a quick key press to result in a small jump.  We also would check to see whether Mario was falling or not so that he could not jump in mid air. Before the code for it was lost, we had Mario’s image change to his jump  image whenever he was in the air after a jump and not when just falling, we also lost the  height­control functionality.
